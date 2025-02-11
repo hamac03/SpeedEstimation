@@ -6,7 +6,7 @@ This AI-based traffic management system includes:
 - **Vehicle Tracking**: Using **ByteTrack** to track vehicle movements.
 - **License Plate Recognition**:
   - **License Plate Detection**: YOLOv8 is used to detect license plates.
-  - **OCR for License Plates**: **PaddleOCR** is employed to recognize text on license plates.
+  - **OCR for License Plates**: **GAN** and **PaddleOCR** are employed to improve quality and recognize text on license plates.
 - **Speed Calculation**:
   - Speed is calculated based on the time a vehicle appears and the distance traveled.
   - Vehicles exceeding the speed limit are marked **in red**.
